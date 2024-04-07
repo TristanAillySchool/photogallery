@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+h1 {
+    color: #007d7b;
+}
+
+.tile {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.tile img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.black-text {
+    color: #000000;
+}
+
+.text-top {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.text-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+main {
+    background-color: #ffffff;
+}
+
+main h2 {
+    text-align: center;
+}
+
+#about, #gallery {
+    text-align: center;
+}
+
+#about p, #gallery p {
+    text-align: left;
+    padding-left: 16px;
+}
+
+
+
+#contact {
+    color: #ffffff;
+    text-align: center;
+}
+
+@media screen and (max-width: 485px) {
+    #top{
+        background-color: #ffffff; 
+    }
+
+    nav ul {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    
+    nav li {
+        display: inline-block;
+    }
+    
+    nav li a {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 10px 20px;
+    }
+}
+
+@media only screen and (min-width: 486px) and (max-width: 880px) {
+    #top{
+        background-color: #ffffff; 
+    }
+
+    nav ul {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    
+    nav li {
+        display: inline-block;
+    }
+    
+    nav li a {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 10px 20px;
+    }
+}
+
+@media only screen and (min-width: 881px) and (max-width: 1300px) {
+    #top{
+        background-color: #ffffff; 
+    }
+
+    nav ul {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    
+    nav li {
+        display: inline-block;
+    }
+    
+    nav li a {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 10px 20px;
+    }
+}
+
+@media only screen and (min-width: 1301px) {
+    #top {
+        background-color: white;
+        max-width: 1300px;
+    }
+
+    nav ul {
+        padding: 0;
+        margin: 0;
+        text-align: right;
+    }
+    
+    nav li {
+        display: inline-block;
+    }
+    
+    nav li a {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 10px 20px;
+    }
+}
+
