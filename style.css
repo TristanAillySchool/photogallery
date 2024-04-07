@@ -6,6 +6,7 @@ body {
 }
 
 h1 {
+    padding: 1em;
     color: #007d7b;
 }
 
@@ -62,12 +63,56 @@ main h2 {
     padding-left: 16px;
 }
 
-
-
 #contact {
+    width: 100%;
     color: #ffffff;
-    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+#contact div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#contact label {
+    text-align: left;
+    width: 80%;
+}
+
+#contact input {
+    padding: 1em;
+    width: 80%;
+}
+
+#contact input::placeholder {
+    color: #007d7b;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#contact button {
+    background-color: #007d7b;
+    color: #ffffff;
+    padding: 1em;
+    width: 50%;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+}
+
+#contact button:hover {
+    background-color: #ffffff;
+    color: #007d7b;
+}
+
+
 
 @media screen and (max-width: 485px) {
     #top{
@@ -156,5 +201,16 @@ main h2 {
         text-decoration: none;
         padding: 10px 20px;
     }
+}
+
+nav li a:hover {
+    color: #007d7b;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
 }
 
